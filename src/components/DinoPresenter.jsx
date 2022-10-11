@@ -2,7 +2,7 @@ import React from 'react';
 
 const DinoPresenter = ({dino}) => {
     return ( 
-        <li>
+        <li className={dino.type === "Herbivore" ? 'herbi' : 'carni'}>
         <div>
             <h2>{dino.name}</h2>
             <p>{dino.type}</p>
@@ -13,3 +13,4 @@ const DinoPresenter = ({dino}) => {
 }
  
 export default DinoPresenter;
+
