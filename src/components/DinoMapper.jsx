@@ -5,7 +5,7 @@ import DinoPresenter from './DinoPresenter';
 const DinoMapper = ({dinoArray}) => {
     return ( 
         <ul>
-           {dinoArray.map(dino => <li><DinoPresenter/></li>)}
+           {dinoArray.map(el => <li><DinoPresenter dino={el}/></li>)}
         </ul>
      );
 }

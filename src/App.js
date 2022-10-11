@@ -42,6 +42,7 @@ const App = () => {
 
   return (
     <div>
+      <h1>Dinosaurs!</h1>
       <DinoMapper dinoArray={dinos}/>
     </div>
   )
