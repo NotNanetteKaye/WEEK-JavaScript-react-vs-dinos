@@ -8,6 +8,7 @@ const App = () => {
       name: 'Nanette-saurus',
       type: 'Herbivore',
       size: 'Extra Large',
+      catchphrase: 'ah',
 
     },
     {
@@ -15,6 +16,7 @@ const App = () => {
       name: 'Nanette-saurus',
       type: 'Carnivore',
       size: 'Extra Large',
+      catchphrase: 'ah',
 
     },
     {
@@ -22,21 +24,21 @@ const App = () => {
       name: 'Nanette-saurus',
       type: 'Omnivore',
       size: 'Extra Large',
-
+      catchphrase: 'ah',
     },
     {
       id: 4,
       name: 'Nanette-saurus',
       type: 'Herbivore',
       size: 'Extra Large',
-
+      catchphrase: 'ah',
     },
     {
       id: 5,
       name: 'Nanette-saurus',
       type: 'Herbivore',
       size: 'Extra Large',
-
+      catchphrase: 'ah',
     },
   ])
 
