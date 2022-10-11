@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { Component, useState } from 'react';
+import DinoMapper from "./components/DinoMapper";
 
 const App = () => {
   const [dinos, setDinos] = useState([
@@ -39,6 +40,11 @@ const App = () => {
     },
   ])
 }
+return (
+  <div>
+    <DinoMapper dinoArray={dinos}/>
+  </div>
+)
  
 export default App;
 
